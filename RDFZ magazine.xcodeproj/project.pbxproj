@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB46CE215AC49DB006A0F75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB46CE115AC49DB006A0F75 /* UIKit.framework */; };
+		CEB46CE415AC49DB006A0F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB46CE315AC49DB006A0F75 /* Foundation.framework */; };
+		CEB46CE615AC49DB006A0F75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB46CE515AC49DB006A0F75 /* CoreGraphics.framework */; };
+		CEB46CEC15AC49DB006A0F75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB46CEA15AC49DB006A0F75 /* InfoPlist.strings */; };
+		CEB46CEE15AC49DB006A0F75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB46CED15AC49DB006A0F75 /* main.m */; };
+		CEB46CF215AC49DB006A0F75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB46CF115AC49DB006A0F75 /* AppDelegate.m */; };
+		CEB46CFA15AC49DB006A0F75 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB46CF915AC49DB006A0F75 /* SenTestingKit.framework */; };
+		CEB46CFB15AC49DB006A0F75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB46CE115AC49DB006A0F75 /* UIKit.framework */; };
+		CEB46CFC15AC49DB006A0F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB46CE315AC49DB006A0F75 /* Foundation.framework */; };
+		CEB46D0415AC49DB006A0F75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB46D0215AC49DB006A0F75 /* InfoPlist.strings */; };
+		CEB46D0715AC49DB006A0F75 /* RDFZ_magazineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB46D0615AC49DB006A0F75 /* RDFZ_magazineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB46CFD15AC49DB006A0F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB46CD415AC49DB006A0F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB46CDC15AC49DB006A0F75;
+			remoteInfo = "RDFZ magazine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB46CDD15AC49DB006A0F75 /* RDFZ magazine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RDFZ magazine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB46CE115AC49DB006A0F75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEB46CE315AC49DB006A0F75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEB46CE515AC49DB006A0F75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEB46CE915AC49DB006A0F75 /* RDFZ magazine-Info.plist */ = {isa = PBXFileReference; path = "RDFZ magazine-Info.plist"; sourceTree = "<group>"; };
+		CEB46CEB15AC49DB006A0F75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEB46CED15AC49DB006A0F75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEB46CEF15AC49DB006A0F75 /* RDFZ magazine-Prefix.pch */ = {isa = PBXFileReference; path = "RDFZ magazine-Prefix.pch"; sourceTree = "<group>"; };
+		CEB46CF015AC49DB006A0F75 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEB46CF115AC49DB006A0F75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEB46CF815AC49DB006A0F75 /* RDFZ magazineTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RDFZ magazineTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB46CF915AC49DB006A0F75 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEB46D0115AC49DB006A0F75 /* RDFZ magazineTests-Info.plist */ = {isa = PBXFileReference; path = "RDFZ magazineTests-Info.plist"; sourceTree = "<group>"; };
+		CEB46D0315AC49DB006A0F75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEB46D0515AC49DB006A0F75 /* RDFZ_magazineTests.h */ = {isa = PBXFileReference; path = RDFZ_magazineTests.h; sourceTree = "<group>"; };
+		CEB46D0615AC49DB006A0F75 /* RDFZ_magazineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDFZ_magazineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB46CDA15AC49DB006A0F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB46CE215AC49DB006A0F75 /* UIKit.framework in Frameworks */,
+				CEB46CE415AC49DB006A0F75 /* Foundation.framework in Frameworks */,
+				CEB46CE615AC49DB006A0F75 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB46CF415AC49DB006A0F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB46CFA15AC49DB006A0F75 /* SenTestingKit.framework in Frameworks */,
+				CEB46CFB15AC49DB006A0F75 /* UIKit.framework in Frameworks */,
+				CEB46CFC15AC49DB006A0F75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB46CD215AC49DB006A0F75 = {
+			isa = PBXGroup;
+			children = (
+				CEB46CE715AC49DB006A0F75 /* RDFZ magazine */,
+				CEB46CFF15AC49DB006A0F75 /* RDFZ magazineTests */,
+				CEB46CE015AC49DB006A0F75 /* Frameworks */,
+				CEB46CDE15AC49DB006A0F75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB46CDE15AC49DB006A0F75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB46CDD15AC49DB006A0F75 /* RDFZ magazine.app */,
+				CEB46CF815AC49DB006A0F75 /* RDFZ magazineTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB46CE015AC49DB006A0F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB46CE115AC49DB006A0F75 /* UIKit.framework */,
+				CEB46CE315AC49DB006A0F75 /* Foundation.framework */,
+				CEB46CE515AC49DB006A0F75 /* CoreGraphics.framework */,
+				CEB46CF915AC49DB006A0F75 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEB46CE715AC49DB006A0F75 /* RDFZ magazine */ = {
+			isa = PBXGroup;
+			children = (
+				CEB46CF015AC49DB006A0F75 /* AppDelegate.h */,
+				CEB46CF115AC49DB006A0F75 /* AppDelegate.m */,
+				CEB46CE815AC49DB006A0F75 /* Supporting Files */,
+			);
+			path = "RDFZ magazine";
+			sourceTree = "<group>";
+		};
+		CEB46CE815AC49DB006A0F75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB46CE915AC49DB006A0F75 /* RDFZ magazine-Info.plist */,
+				CEB46CEA15AC49DB006A0F75 /* InfoPlist.strings */,
+				CEB46CED15AC49DB006A0F75 /* main.m */,
+				CEB46CEF15AC49DB006A0F75 /* RDFZ magazine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEB46CFF15AC49DB006A0F75 /* RDFZ magazineTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB46D0515AC49DB006A0F75 /* RDFZ_magazineTests.h */,
+				CEB46D0615AC49DB006A0F75 /* RDFZ_magazineTests.m */,
+				CEB46D0015AC49DB006A0F75 /* Supporting Files */,
+			);
+			path = "RDFZ magazineTests";
+			sourceTree = "<group>";
+		};
+		CEB46D0015AC49DB006A0F75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB46D0115AC49DB006A0F75 /* RDFZ magazineTests-Info.plist */,
+				CEB46D0215AC49DB006A0F75 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB46CDC15AC49DB006A0F75 /* RDFZ magazine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB46D0A15AC49DB006A0F75 /* Build configuration list for PBXNativeTarget "RDFZ magazine" */;
+			buildPhases = (
+				CEB46CD915AC49DB006A0F75 /* Sources */,
+				CEB46CDA15AC49DB006A0F75 /* Frameworks */,
+				CEB46CDB15AC49DB006A0F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RDFZ magazine";
+			productName = "RDFZ magazine";
+			productReference = CEB46CDD15AC49DB006A0F75 /* RDFZ magazine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB46CF715AC49DB006A0F75 /* RDFZ magazineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB46D0D15AC49DB006A0F75 /* Build configuration list for PBXNativeTarget "RDFZ magazineTests" */;
+			buildPhases = (
+				CEB46CF315AC49DB006A0F75 /* Sources */,
+				CEB46CF415AC49DB006A0F75 /* Frameworks */,
+				CEB46CF515AC49DB006A0F75 /* Resources */,
+				CEB46CF615AC49DB006A0F75 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB46CFE15AC49DB006A0F75 /* PBXTargetDependency */,
+			);
+			name = "RDFZ magazineTests";
+			productName = "RDFZ magazineTests";
+			productReference = CEB46CF815AC49DB006A0F75 /* RDFZ magazineTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB46CD415AC49DB006A0F75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CEB46CD715AC49DB006A0F75 /* Build configuration list for PBXProject "RDFZ magazine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEB46CD215AC49DB006A0F75;
+			productRefGroup = CEB46CDE15AC49DB006A0F75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB46CDC15AC49DB006A0F75 /* RDFZ magazine */,
+				CEB46CF715AC49DB006A0F75 /* RDFZ magazineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB46CDB15AC49DB006A0F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB46CEC15AC49DB006A0F75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB46CF515AC49DB006A0F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB46D0415AC49DB006A0F75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEB46CF615AC49DB006A0F75 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB46CD915AC49DB006A0F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB46CEE15AC49DB006A0F75 /* main.m in Sources */,
+				CEB46CF215AC49DB006A0F75 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB46CF315AC49DB006A0F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB46D0715AC49DB006A0F75 /* RDFZ_magazineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB46CFE15AC49DB006A0F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB46CDC15AC49DB006A0F75 /* RDFZ magazine */;
+			targetProxy = CEB46CFD15AC49DB006A0F75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB46CEA15AC49DB006A0F75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB46CEB15AC49DB006A0F75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEB46D0215AC49DB006A0F75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB46D0315AC49DB006A0F75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB46D0815AC49DB006A0F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB46D0915AC49DB006A0F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB46D0B15AC49DB006A0F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDFZ magazine/RDFZ magazine-Prefix.pch";
+				INFOPLIST_FILE = "RDFZ magazine/RDFZ magazine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEB46D0C15AC49DB006A0F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDFZ magazine/RDFZ magazine-Prefix.pch";
+				INFOPLIST_FILE = "RDFZ magazine/RDFZ magazine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEB46D0E15AC49DB006A0F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RDFZ magazine.app/RDFZ magazine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDFZ magazine/RDFZ magazine-Prefix.pch";
+				INFOPLIST_FILE = "RDFZ magazineTests/RDFZ magazineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEB46D0F15AC49DB006A0F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RDFZ magazine.app/RDFZ magazine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDFZ magazine/RDFZ magazine-Prefix.pch";
+				INFOPLIST_FILE = "RDFZ magazineTests/RDFZ magazineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB46CD715AC49DB006A0F75 /* Build configuration list for PBXProject "RDFZ magazine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB46D0815AC49DB006A0F75 /* Debug */,
+				CEB46D0915AC49DB006A0F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB46D0A15AC49DB006A0F75 /* Build configuration list for PBXNativeTarget "RDFZ magazine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB46D0B15AC49DB006A0F75 /* Debug */,
+				CEB46D0C15AC49DB006A0F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEB46D0D15AC49DB006A0F75 /* Build configuration list for PBXNativeTarget "RDFZ magazineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB46D0E15AC49DB006A0F75 /* Debug */,
+				CEB46D0F15AC49DB006A0F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB46CD415AC49DB006A0F75 /* Project object */;
+}
