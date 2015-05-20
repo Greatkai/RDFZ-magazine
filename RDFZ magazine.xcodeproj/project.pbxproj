@@ -35,17 +35,17 @@
 		CEB46CE115AC49DB006A0F75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEB46CE315AC49DB006A0F75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEB46CE515AC49DB006A0F75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CEB46CE915AC49DB006A0F75 /* RDFZ magazine-Info.plist */ = {isa = PBXFileReference; path = "RDFZ magazine-Info.plist"; sourceTree = "<group>"; };
+		CEB46CE915AC49DB006A0F75 /* RDFZ magazine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RDFZ magazine-Info.plist"; sourceTree = "<group>"; };
 		CEB46CEB15AC49DB006A0F75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEB46CED15AC49DB006A0F75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEB46CEF15AC49DB006A0F75 /* RDFZ magazine-Prefix.pch */ = {isa = PBXFileReference; path = "RDFZ magazine-Prefix.pch"; sourceTree = "<group>"; };
-		CEB46CF015AC49DB006A0F75 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEB46CEF15AC49DB006A0F75 /* RDFZ magazine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RDFZ magazine-Prefix.pch"; sourceTree = "<group>"; };
+		CEB46CF015AC49DB006A0F75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEB46CF115AC49DB006A0F75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEB46CF815AC49DB006A0F75 /* RDFZ magazineTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RDFZ magazineTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB46CF915AC49DB006A0F75 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CEB46D0115AC49DB006A0F75 /* RDFZ magazineTests-Info.plist */ = {isa = PBXFileReference; path = "RDFZ magazineTests-Info.plist"; sourceTree = "<group>"; };
+		CEB46D0115AC49DB006A0F75 /* RDFZ magazineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RDFZ magazineTests-Info.plist"; sourceTree = "<group>"; };
 		CEB46D0315AC49DB006A0F75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CEB46D0515AC49DB006A0F75 /* RDFZ_magazineTests.h */ = {isa = PBXFileReference; path = RDFZ_magazineTests.h; sourceTree = "<group>"; };
+		CEB46D0515AC49DB006A0F75 /* RDFZ_magazineTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDFZ_magazineTests.h; sourceTree = "<group>"; };
 		CEB46D0615AC49DB006A0F75 /* RDFZ_magazineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDFZ_magazineTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -345,6 +345,7 @@
 				GCC_PREFIX_HEADER = "RDFZ magazine/RDFZ magazine-Prefix.pch";
 				INFOPLIST_FILE = "RDFZ magazine/RDFZ magazine-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -356,6 +357,7 @@
 				GCC_PREFIX_HEADER = "RDFZ magazine/RDFZ magazine-Prefix.pch";
 				INFOPLIST_FILE = "RDFZ magazine/RDFZ magazine-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
